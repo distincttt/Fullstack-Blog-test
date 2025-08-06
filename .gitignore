@@ -1,24 +1,37 @@
-/.phpunit.cache
-/bootstrap/ssr
+# Laravel
+/vendor
 /node_modules
-/public/build
 /public/hot
 /public/storage
 /storage/*.key
-/storage/pail
-/vendor
+/storage/framework/*
+/storage/logs/*
 .env
-.env.backup
-.env.production
-.phpactor.json
+.env.*
 .phpunit.result.cache
-Homestead.json
+.phpunit.cache
+.phpactor.json
 Homestead.yaml
+Homestead.json
 npm-debug.log
 yarn-error.log
-/auth.json
-/.fleet
+auth.json
+
+
+# IDEs and tools
 /.idea
-/.nova
 /.vscode
+/.nova
+/.fleet
 /.zed
+
+# SSR & caches
+/bootstrap/ssr
+/storage/pail
+
+# Vite build output
+/public/build
+/public/build/*
+
+# Frontend (Vite) — blog-frontend/
+blog-frontend/node_modules/
