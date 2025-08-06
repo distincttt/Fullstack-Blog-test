@@ -7,7 +7,7 @@ Fullstack-приложение на **Laravel (API)** + **React** + **Tailwind C
 ## 📦 Установка и запуск
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/distincttt/Fullstack-Blog-test.git
 cd blog-frontend
 bun install
 bun run build
