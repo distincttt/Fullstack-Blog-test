@@ -1,0 +1,13 @@
+vendor/
+node_modules/
+storage/logs/
+storage/framework/
+public/build/
+.env
+.git
+.gitignore
+*.log
+*.zip
+*.tar
+*.gz
+*.rar
